@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><em>IMAGE GALLERY</em></h1>
+        <nav>
+          <a href="" id="menu-icon"></a> 
+          <ul>
+            <li><a href="#nature">Nature</a></li>
+            <li><a href="#wildlife">Wildlife</a></li>
+            <li><a href="#hikers">Hikers</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End Header -->
+      <section>
+        <a name="nature"></a>
+        <h2>Nature</h2>
+        <div class="container">
+          <a href="images/nature1.jpg"><img src="nature1.jpg" alt="nature1"></a>
+          <a href="images/nature2.jpg"><img src="nature2.jpg" alt="nature2"></a>
+          <a href="images/nature3.jpg"><img src="nature3.jpg" alt="nature3"></a>
+          <a href="images/nature4.jpg"><img src="nature5.jpg" alt="nature4"></a>
+          <a href="images/nature5.jpg"><img src="nature6.jpg" alt="nature5"></a>
+          
+         
+        </div>
+      </section>
+      <!-- End of Nature Section -->
+      <section>
+          <a name="wildlife"></a>
+          <h2>Wildlife</h2>
+          <div class="container">
+              <a href="images/animal1.jpg"><img src="animal1.jpg" alt="animal1"></a>
+              <a href="images/animal6.jpg"><img src="animal6.jpg" alt="animal6"></a>
+              <a href="images/animal3.jpg"><img src="animal3.jpg" alt="animal3"></a>
+              <a href="images/animal4.jpg"><img src="animal4.jpg" alt="animal4"></a>
+              <a href="images/animal5.jpg"><img src="animal5.jpg" alt="animal5"></a>
+              <a href="images/animal2.jpg"><img src="animal2.jpg"></a>
+            
+          </div>
+      </section>
+      <!-- End of Wildlife Section -->
+      <section>
+          <a name="hikers"></a>
+          <h2>Hikers</h2>
+          <div class="container">
+              <a href="images/back1.jeg"><img src="back1.jpg" alt="backpacker1"></a>
+              <a href="images/back2.jpg"><img src="back2.jpg" alt="backpacker2"></a>
+              <a href="images/back3.jpg"><img src="back3.jpg" alt="backpacker3"></a>
+              <a href="images/back4.jpg"><img src="back4.jpg.jpeg" alt="backpacker4"></a>
+              <a href="images/back5.jpg"><img src="back5.jpg" alt="backpacker5"></a>
+              <a href="images/back5.jpg"><img src="back6.jpg" alt="backpacker5"></a>
+
+
+             
+          </div>
+      </section>
+      <!-- End of Hikers Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          Copyright &copy; 2024, CodeAlpha Intern || Shreya Bhatnagar
+        </p>
+      </footer>
+    </div>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
